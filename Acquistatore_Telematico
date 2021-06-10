@@ -11,7 +11,7 @@ class PS5Bot():
         sleep(50)
 
     def checkAndBuyPS5(self):
-        self.driver.get('URL o del SIUMMMM')
+        self.driver.get('URLo del SIUMMMM')
         sleep(1)
         try:
             buyNow = self.driver.find_element_by_xpath('//*[@id="add-to-cart-button"]')                     #aggiungi al carrello
